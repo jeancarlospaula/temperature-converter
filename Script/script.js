@@ -7,19 +7,6 @@ if(temperatureSelect.value == "c"){
 }
 }
 
-function calcularTemperatura() {
-
-    let temperature = Number(firstTemperature.value)
-
-    if(temperatureSelect.value == "c"){
-        let Farenheit = temperature * 1.8 + 32
-        resultConversor.value = Farenheit
-    } else if(temperatureSelect.value == "f") {
-        let Celsius = (temperature - 32)/1.8
-        resultConversor.value = Celsius
-    }
-}
-
 buttonConversor.addEventListener("click", calcularTemperatura)
 
 function calcularTemperatura() {
