@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de Temperatura</title>
+    </head>
+    <body>
+        <main>
+            <input type="text" id="firstTemperature">
+            <select name="temperature" id="temperatureSelect" onchange="checkTemperatureType()">
+                <option value="c" selected>Celsius</option>
+                <option value="f">Farenheit</option>
+            </select>
+
+            <button id="buttonConversor">Converter para Farenheit</button>
+        </main>
+        <script src="./Script/script.js"></script>
+    </body>
+</html>
